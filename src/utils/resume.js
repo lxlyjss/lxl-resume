@@ -6,7 +6,7 @@ export default {
         'age': '27',
         'worklife': '5',
         'label': '嘻嘻哈哈奋斗的小青年',
-        'picture': 'https://www.xinlinyun.com/lxl/imgs/avatar.jpg',
+        'picture': 'http://img.xinlinyun.com/avatar.jpg',
         'email': 'lxlin0172@163.com',
         'phone': '18500301496',
         'website': 'https://github.com/lxlyjss',
