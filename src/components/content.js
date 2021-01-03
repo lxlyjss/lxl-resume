@@ -33,8 +33,8 @@ class Content extends React.Component {
         return (
             <section className="col-md-9 card-wrapper pull-right">
                 <div className="card background-card">
-                    <h4 className="text-uppercase">背景资料</h4>
-                    <hr/>
+                    {/* <h4 className="text-uppercase">背景资料</h4>
+                    <hr/> */}
                     <div className="background-details">
                         <div className="detail" id="about">
                             <div className="icon">
@@ -57,6 +57,33 @@ class Content extends React.Component {
                                         </div>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div className="detail" id="skills">
+                            <div className="icon">
+                                <i className="fs-lg icon-tools"></i><span className="mobile-title">技能评价</span>
+                            </div>
+                            <div className="info">
+                                <h4 className="title text-uppercase">技能评价</h4>
+                                <div className="content">
+                                    <ul className="list-unstyled clear-margin">
+                                        {skills.map((n, i) => {
+                                            return (
+                                                <li key={i} className="card card-nested card-skills">
+                                                    <div className="skill-info">
+                                                        <strong>{n.name}</strong>
+                                                        <div className="space-top labels">
+                                                            {n.keywords.map((v, k) => {
+                                                                return <span key={k}
+                                                                             className="label label-info">{v}</span>
+                                                            })}
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div className="detail" id="work-experience">
@@ -194,33 +221,6 @@ class Content extends React.Component {
                                                         <i>{n.gpa}</i>
                                                         <div className="space-top labels">
                                                             {n.courses.map((v, k) => {
-                                                                return <span key={k}
-                                                                             className="label label-info">{v}</span>
-                                                            })}
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            )
-                                        })}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="detail" id="skills">
-                            <div className="icon">
-                                <i className="fs-lg icon-tools"></i><span className="mobile-title">技能评价</span>
-                            </div>
-                            <div className="info">
-                                <h4 className="title text-uppercase">技能评价</h4>
-                                <div className="content">
-                                    <ul className="list-unstyled clear-margin">
-                                        {skills.map((n, i) => {
-                                            return (
-                                                <li key={i} className="card card-nested card-skills">
-                                                    <div className="skill-info">
-                                                        <strong>{n.name}</strong>
-                                                        <div className="space-top labels">
-                                                            {n.keywords.map((v, k) => {
                                                                 return <span key={k}
                                                                              className="label label-info">{v}</span>
                                                             })}

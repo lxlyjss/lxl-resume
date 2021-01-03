@@ -3,7 +3,7 @@ export default {
         'position': 'Web 前端工程师',
         'name': '刘信林',
         'gender': '男',
-        'age': '27',
+        'age': '28',
         'worklife': '5',
         'label': '嘻嘻哈哈奋斗的小青年',
         'picture': 'http://img.xinlinyun.com/avatar.jpg',
@@ -11,8 +11,9 @@ export default {
         'phone': '18500301496',
         'website': 'https://github.com/lxlyjss',
         'summary': [
-            '个人主攻 Web 前端和 NodeJS 开发，5年+前端开发经验，参与或独立开发过多个核心项目，项目类型涉及：网站应用、教育服务、企业管理、微信小程序、SPA 应用（PC/Moblie）等等',
-            '喜欢关注 Web 前端相关新技术（NodeJs、Vue、微信小程序...），对于新技术有很强的学习兴趣',
+            '个人主攻 Web 前端和微信小程序开发，5年+前端开发经验，参与或独立开发过15+个核心项目，项目类型涉及：网站应用、教育服务、企业管理、微信小程序、SPA 应用（PC/Moblie）等。',
+            '曾就职于国内最大的健身房“SaaS+物联网+大数据”智能生态服务商公司，对多人协作开发和单独开发都有较深的经验，能独自完成大型项目的起始框架搭建、业务组件和公共组件开发、功能开发和自测等。',
+            '喜欢关注 Web 前端相关新技术（NodeJs、Vue、Webpack...），对Javascript语言有深刻的理解。',
             '热爱前端这份工作，对工作热情负责。'
         ],
         'location': '北京市朝阳区',
@@ -24,20 +25,49 @@ export default {
             }
         ]
     },
+    'skills': [
+        {
+            'name': '前端',
+            'level': 'master',
+            'keywords': [
+                'HTML',
+                'CSS',
+                'Javascript',
+                'Sass',
+                'Gulp',
+                'Webpack',
+                '微信小程序',
+                'Vue',
+                'Vuex',
+                'Axios',
+                'Vue-Router',
+                'Element-UI'
+            ]
+        },
+        {
+            'name': '后端',
+            'level': 'master',
+            'keywords': [
+                'NodeJS',
+                'Express',
+                'MongoDB'
+            ]
+        }
+    ],
     'work': [
         {
-            'company': '信产教育科技有限公司',
+            'company': '三体云智能科技有限公司',
             'position': 'Web 前端工程师',
-            'website': 'http://www.aiqbg.com',
+            'website': 'http://www.styd.cn',
             'startDate': '2018-10',
             'endDate': '至今',
-            'summary': '信产教育科技有限公司',
+            'summary': '三体云智能科技有限公司',
             'highlights': [
-                '主要负责AI情报官C端微信小程序开发和维护',
-                '参与AI情报官B端企业微信第三方H5应用，公共组件开发',
-                '参与AI情报官PC端saas系统开发',
-                '参与AI情报官整体项目需求研讨及制定',
-                '前端公共组件'
+                '负责AI情报官C端微信小程序和三体SaaS Pro小程序的营销插件项目开发，基于Gulp打包实现多环境测试，打包，集成npm命令实现自动上传预览功能。',
+                '使用小程序平台提供的评测功能，对小程序性能不断进行优化，使用小程序分包功能避免业务功能耦合和减少首屏加载时长。',
+                '参与AI情报官B端企业微信第三方H5应用和三体SaaS Pro PC端saas系统开发，对业务功能和公共组件进行归类，开发高复用性组件。',
+                '制定符合项目开发的Git Flow流程，使用git cz统一团队Git commit 文本标准，便于后续代码review和团队协作。',
+                '集成错误日志收集工具sentry，配合运维接入企业微信，能在第一时间收到用户端触发的脚本错误和接口调用异常通知，及时处理异常情况。'
             ]
         },
         {
@@ -48,10 +78,9 @@ export default {
             'endDate': '2018-09',
             'summary': '北京福悦天成文化传播有限公司',
             'highlights': [
-                '根据产品需求文档，进行 Web 前端开发，前端主体框架选型，搭建基础框架',
-                '根据设计提供的设计稿编写静态页面',
-                '负责恋爱艺术微信小程序及crm系统开发与维护',
-                '负责配合后台开发人员，完成页面的交互及接口对接',
+                '根据产品需求文档，进行 Web 前端开发，前端主体框架选型，搭建基础框架，全部由一人负责，短时间项目即上线',
+                '负责恋爱艺术微信小程序及crm系统开发与维护，一周内完成微信小程序的开发和上线，一个月内完成8轮大版本迭代',
+                '小程序及时上线为公司增加获客50%，后期不断进行优化迭代，大大提高用户体验'
             ]
         },
         {
@@ -235,7 +264,7 @@ export default {
         {
             'institution': '西安职业技术学院',
             'area': '计算机应用技术',
-            'studyType': '专科',
+            'studyType': '大专',
             'startDate': '2011-09',
             'endDate': '2014-06',
             // 'gpa': '4.0',
@@ -257,41 +286,12 @@ export default {
     'publications': [
 
     ],
-    'skills': [
-        {
-            'name': '前端',
-            'level': 'master',
-            'keywords': [
-                'HTML',
-                'CSS',
-                'Javascript',
-                'Sass',
-                'Gulp',
-                'Webpack',
-                '微信小程序',
-                'Vue',
-                'Vuex',
-                'Axios',
-                'Vue-Router',
-                'Element-UI'
-            ]
-        },
-        {
-            'name': '后端',
-            'level': 'master',
-            'keywords': [
-                'NodeJS',
-                'Express',
-                'mongodb'
-            ]
-        }
-    ],
-    'languages': [
-        {
-            'language': '中文',
-            'fluency': '母语'
-        }
-    ],
+    // 'languages': [
+    //     {
+    //         'language': '中文',
+    //         'fluency': '母语'
+    //     }
+    // ],
     'interests': [
         {
             'name': '社交',

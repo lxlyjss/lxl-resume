@@ -14,13 +14,13 @@ class SiderBar extends React.Component {
             <section className="col-md-3 card-wrapper profile-card-wrapper affix">
                 <div className="card profile-card">
                     <span className="profile-pic-container">
-                        <div className="profile-pic">
+                        {/* <div className="profile-pic">
                             <img className="media-object img-circle center-block" src={basics.picture || picture} />
-                        </div>
+                        </div> */}
                         <div className="name-and-profession text-center">
                             <h3><b>{basics.name}</b></h3>
                             <h4><b>{basics.position}</b></h4>
-                            <h5 className="text-muted">{basics.label}</h5>
+                            {/* <h5 className="text-muted">{basics.label}</h5> */}
                         </div>
                     </span>
                     <hr />
@@ -45,14 +45,14 @@ class SiderBar extends React.Component {
                             <span className="icon"><i className="icon fs-lg icon-link"></i></span>
                             <span className="info"><a href={basics.website} target="_blank">{basics.website}</a></span>
                         </div>
-                        <div className="detail">
+                        {/* <div className="detail">
                             <span className="icon" title="Languages I speak"><i className="icon fs-lg icon-language"></i></span>
                             {languages.map((n, i) => {
                                 return <span key={i} className="info">{n.language}</span>
                             })}
-                        </div>
+                        </div> */}
                     </div>
-                    <hr />
+                    {/* <hr />
                     <div className="social-links text-center">
                         <div>
                             {basics.profiles.map((n, i) => {
@@ -64,7 +64,7 @@ class SiderBar extends React.Component {
                                 return <a key={i} className={cls} href={n.url} target="_blank"></a>
                             })}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         )

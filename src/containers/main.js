@@ -16,6 +16,7 @@ class Main extends React.Component {
 
     renderHTMLtoPDF = () => {
         html2canvas(document.body, {
+            scale: 2,
             onrendered: (canvas) => {
                 const contentWidth = canvas.width
                 const contentHeight = canvas.height

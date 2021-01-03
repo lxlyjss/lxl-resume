@@ -381,7 +381,7 @@ body {
     background: white;
     border: 1px solid #e6e6e6;
     border-radius: 3px;
-    min-height: 300px;
+    /* min-height: 300px; */
     padding: 10px 0;
 }
 
